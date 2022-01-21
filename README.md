@@ -26,3 +26,13 @@ To execute edge insertion:
 ./insert ./path_to_the_index ./path_to_the_insertionfile Number_of_Insertions  
 
 The default size of DL label and BL label is 64. You could tune the label size to achieve better performance.   
+
+Please cite our paper if you use DBL in your work：
+
+@article{lyuDBL,
+author = {Lyu, Qiuyi and Li, Yuchen and He, Bingsheng and Gong, Bin},
+title = {DBL: Efficient Reachability Queries on Dynamic Graphs},
+conference = { In International Conference on Database Systems for Advanced Applications},
+pages = {761-777},
+year = {2021}
+}
